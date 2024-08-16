@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Versículos Bíblicos</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="img\icone.png">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Caixa de Versículos Bíblicos</h1>
+
+    <!-- Adicionar um select para escolher o idioma -->
+    <div class="select-idioma">
+        <label for="language-select">Escolha o idioma:</label>
+        <select id="language-select">
+            <option value="en|pt" selected>Português (Brasil)</option>
+            <option value="en|en">Inglês</option>
+            <option value="en|es">Espanhol</option>
+            <option value="en|fr">Francês</option>
+            <option value="en|de">Alemão</option>
+            <option value="en|it">Italiano</option>
+            <option value="en|ru">Russo</option>
+            <option value="en|zh-CN">Chinês (Simplificado)</option>
+            <option value="en|ja">Japonês</option>
+        </select>
+    </div>
+
+    <div id="container" class="container">
+        <div id="verse-box" class="verse-box">
+            <p id="verse-text">Clique no botão abaixo para obter um versículo.</p>
+            <p id="verse-reference" class="verse-reference"></p>
+        </div>
+        <button id="new-verse-btn">Versículo</button>
+    </div>
+
+    <footer>
+        <div align="center" class="credit">
+            <a href="https://grupo.jm7087.com" class="cor-link-rodape">Grupo JM7087</a>
+            © Copyright 2010-
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+            . Todos os direitos reservados. Desenvolvido <span class="cor-nome-dev-rodape">João Marcos</span><span
+                class="texto-rodape">.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
