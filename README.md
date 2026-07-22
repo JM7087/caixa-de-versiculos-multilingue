@@ -78,4 +78,4 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver algu
 
 ## Créditos
 
-- Desenvolvido por [João Marcos](https://links.jm7087.com)
+- Desenvolvido por [João Marcos](https://www.jmdos.com.br)
